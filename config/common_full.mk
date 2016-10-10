@@ -2,7 +2,7 @@
 $(call inherit-product, vendor/creeper/config/common.mk)
 
 # Include CM audio files
-include vendor/creeper/config/cm_audio.mk
+include vendor/creeper/config/creeper_audio.mk
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
