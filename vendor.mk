@@ -1,0 +1,7 @@
+# Export rom name
+export VENDOR := $VENDOR
+
+# Version info
+ROM_VERSION_MAJOR := $MAJOR
+ROM_VERSION_MINOR := $MINOR
+ROM_VERSION_MAINTENANCE := 
