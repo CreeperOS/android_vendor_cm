@@ -154,6 +154,7 @@ PRODUCT_PACKAGES += \
     Eleven \
     LockClock \
     CreeperOTAUpdater \
+    CreeperPapers \
     CMHome \
     CyanogenSetupWizard \
     CMSettingsProvider
