@@ -85,7 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/creeper/prebuilt/common/bin/backuptool.sh:install/bin/backuptool.sh \
     vendor/creeper/prebuilt/common/bin/backuptool.functions:install/bin/backuptool.functions \
     vendor/creeper/prebuilt/common/bin/50-cm.sh:system/addon.d/50-cm.sh \
-    vendor/creepr/prebuilt/common/bin/blacklist:system/addon.d/blacklist
+    vendor/creeper/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 endif
 
 # Signature compatibility validation
@@ -127,6 +127,10 @@ PRODUCT_COPY_FILES += \
 # This is CM!
 PRODUCT_COPY_FILES += \
     vendor/creeper/config/permissions/com.cyanogenmod.android.xml:system/etc/permissions/com.cyanogenmod.android.xml
+    
+# This is CreeperOS!
+PRODUCT_COPY_FILES += \
+    vendor/creeper/config/permissions/com.cyanogenmod.creeperos.xml:system/etc/permissions/com.cyanogenmod.creeperos.xml
 
 # T-Mobile theme engine
 include vendor/creeper/config/themes_common.mk
@@ -252,7 +256,7 @@ endif
 ifndef CREEPER_BUILDTYPE
     ifdef RELEASE_TYPE
         # Starting with "CREEPER_" is optional
-        RELEASE_TYPE := $(shell echo $(RELEASE_TYPE) | sed -e 's|^CM_||g')
+        RELEASE_TYPE := $(shell echo $(RELEASE_TYPE) | sed -e 's|^CREEPER_||g')
         CREEPER_BUILDTYPE := $(RELEASE_TYPE)
     endif
 endif
