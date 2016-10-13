@@ -1,0 +1,15 @@
+CreeperOS
+===============
+
+Visit http://github.com/CreeperOS for full source and git access.
+
+CHANGELOG (notable new features)
+---------
+
+### 1.0 - EXPERIMENTAL/ALPHA
+* initial Official Build
+* Common: Android 5.1.1 (Google)
+* Android Security Bulletin – October 5th update
+* Initial Devices:
+- Golden:_Galaxy S3 Mini
+- hwY635:_Huawei Y635
