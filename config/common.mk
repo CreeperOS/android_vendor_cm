@@ -130,7 +130,7 @@ PRODUCT_COPY_FILES += \
     
 # This is CreeperOS!
 PRODUCT_COPY_FILES += \
-    vendor/creeper/config/permissions/com.cyanogenmod.creeperos.xml:system/etc/permissions/com.cyanogenmod.creeperos.xml
+    vendor/creeper/config/permissions/com.creeperos.android.xml:system/etc/permissions/com.creeperos.android.xml
 
 # T-Mobile theme engine
 include vendor/creeper/config/themes_common.mk
