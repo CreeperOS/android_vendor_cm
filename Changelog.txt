@@ -13,3 +13,4 @@ CHANGELOG (notable new features)
 * Initial Devices:
 - Golden:_Galaxy S3 Mini
 - hwY635:_Huawei Y635
+- HwY6:_Huawei Y6
